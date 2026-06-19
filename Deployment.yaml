@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: gangadhariy/fluid-ai-app:9
+        image: gangadhariy/fluid-ai-app:10
         ports:
         - containerPort: 5000
         env:
