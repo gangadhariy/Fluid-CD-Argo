@@ -26,11 +26,11 @@ spec:
             name: postgres-secret
         resources:
           requests:
-            cpu: "100m"
-            memory: "128Mi"
+            cpu: "4"
+            memory: "4Gi"
           limits:
-            cpu: "500m"
-            memory: "256Mi"
+            cpu: "5"
+            memory: "5Gi"
         readinessProbe:
           httpGet:
             path: /health
